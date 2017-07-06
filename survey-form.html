@@ -20,12 +20,43 @@
             <label for="lastName">Last Name: </label>
             <input id="lastName" class="form-control" type="text">
           </div>
+          <!-- <select class="form-control" id="food">
+            <option value="1">Coffee</option>
+            <option value="2">Tea</option>
+            <option value="3">Kombucha</option>
+            <option value="4">Water</option>
+          </select> -->
+          <select class="form-control" id="food">
+            <option>Coffee</option>
+            <option>Tea</option>
+            <option>Kombucha</option>
+            <option>Water</option>
+          </select>
+          <div class="radio">
+            <label>
+              <input type="radio" name="flavor" value="chocolate" checked>
+              Chocolate
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="flavor" value="vanilla">
+              Vanilla
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="flavor" value="cookiesandcream">
+              Cookies & Cream
+            </label>
+          </div>
+
           <button type="submit" class="btn">Submit Survey</button>
         </form>
       </div>
       <div id="survey">
         <h1>Survey Results</h1>
-        <p>Hi there! <span class="firstName"></span> <span class="lastName"></span></p>
+        <p>Hi there! <span class="firstName"></span> <span class="lastName"></span><br><span class="food"></span><br><span class="flavor"></span></p>
       </div>
     </div>
   </body>
